@@ -1,27 +1,28 @@
 // Base styling for the navbar
 #mainNav {
   box-shadow: $box-shadow;
-  background-color: $white;
+  background-color: $azul;
   transition: background-color 0.2s ease;
   .navbar-brand {
     font-family: $font-family-sans-serif;
     font-weight: $font-weight-bold;
     color: $gray-900;
+    font-size: 1.9em;
   }
   .navbar-nav {
     .nav-item {
       .nav-link {
-        color: $gray-600;
+        color: $white;
         font-family: $font-family-sans-serif;
         font-weight: $font-weight-bold;
         font-size: 0.9rem;
         padding: 0.75rem 0;
         &:hover,
         &:active {
-          color: $primary;
+          color:$white !important;
         }
         &.active {
-          color: $primary !important;
+          color:$white !important;
         }
       }
     }
@@ -55,7 +56,7 @@
     // Navbar styling applied when the page is scrolled
     &.navbar-scrolled {
       box-shadow: $box-shadow;
-      background-color: $white;
+      background-color: $azul;
       .navbar-brand {
         color: $gray-900;
         &:hover {

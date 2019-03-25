@@ -4,6 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
+@font-face {
+  font-family: Nickainley;
+  src: url("/assets/fonts/Nickainley-Normal.otf") format("woff"), url("/assets/fonts/Nickainley-Normal.otf") format("truetype");
+}
+
+.font-nickainley {
+  font-family: "Nickainley" !important;
+}
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -10570,6 +10579,18 @@ hr.divider {
   border-color: #f05930;
 }
 
+.color-morado {
+  color: #502da3 !important;
+}
+
+.color-rojo {
+  color: red !important;
+}
+
+.color-verde-light {
+  color: #48ff8b !important;
+}
+
 hr.light {
   border-color: #fff;
 }
@@ -10599,7 +10620,7 @@ hr.light {
 #mainNav {
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  background-color: #4582ff;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
@@ -10608,10 +10629,11 @@ hr.light {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #212529;
+  font-size: 1.9em;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-  color: #6c757d;
+  color: #fff;
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   font-size: 0.9rem;
@@ -10619,11 +10641,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f05930;
+  color: #fff !important;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f05930 !important;
+  color: #fff !important;
 }
 
 @media (min-width: 992px) {
@@ -10651,7 +10673,7 @@ hr.light {
   #mainNav.navbar-scrolled {
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: #fff;
+    background-color: #4582ff;
   }
   #mainNav.navbar-scrolled .navbar-brand {
     color: #212529;
