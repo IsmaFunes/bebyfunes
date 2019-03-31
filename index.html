@@ -1,283 +1,598 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Ismael Funes">
+    <!-- Title -->
+    <title>Beby Funes - La mejor fiesta</title>
 
-  <title>Beby Funes - ¡La mejor fiesta!</title>
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/icon.png">
 
-  <!-- Font Awesome Icons -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link rel="icon" href="assets/icon.png">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
-  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
-
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-  <!-- Theme CSS - Includes Bootstrap -->
-  <link href="css/creative.min.css" rel="stylesheet">
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger font-nickainley" href="#page-top">Beby Funes
-        </a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto my-2 my-lg-0">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">¿Quién es Beby Funes?</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Imágenes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contratanos</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-         
-        <div class="col-lg-10 align-self-end">
-        
-          <h1 class="text-uppercase text-white font-weight-bold">¡Tu fiesta va a ser un éxito!</h1>
-          <hr class="divider my-4">
+<body>
+    <!-- ##### Preloader ##### -->
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="circle-preloader">
+            <img src="img/core-img/icon.png" alt="">
         </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">Beby Funes y su banda compuesta por 8 músicos en vivo, traen a tu evento un repertorio actualizado de los artistas de reggaeton y cumbia que están sonando en la actualidad, mas los clásicos de todos los tiempos, infaltables en cada fiesta del país.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" style="background-color: #08e459!important; color: black" href="#about">Conocé más</a>
-        </div>
-        
-      </div>
-     
     </div>
-  </header>
 
-  <!-- About Section -->
-  <section class="page-section bg-primary" id="about">
-    <div class="container">
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+        <!-- Navbar Area -->
+        <div class="musica-main-menu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container-fluid">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="musicaNav">
 
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-              <img style="margin-bottom: 32px!important" src="assets/logo_blanco.png" class="img-fluid">
+                        <!-- Nav brand -->
+                        <a href="index.html" class="nav-brand"><img
+                                
+                                src="img/core-img/logo_blanco.png" alt=""></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu">
+
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="about-us.html" active>Conocenos</a></li>
+                                    <!-- <li><a href="#">Pages</a>
+                                                <ul class="dropdown">
+                                                    <li><a href="index.html">Home</a></li>
+                                                    <li><a href="about-us.html">About Us</a></li>
+                                                    <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
+                                                    <li><a href="blog.html">News</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="elements.html">Elements</a></li>
+                                                </ul>
+                                            </li> -->
+                                    <!-- <li><a href="#">Mega Menu</a>
+                                                <div class="megamenu">
+                                                    <ul class="single-mega cn-col-4">
+                                                        <li><a href="index.html">Home</a></li>
+                                                        <li><a href="about-us.html">About Us</a></li>
+                                                        <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
+                                                        <li><a href="blog.html">News</a></li>
+                                                        <li><a href="contact.html">Contact</a></li>
+                                                        <li><a href="elements.html">Elements</a></li>
+                                                    </ul>
+                                                    <ul class="single-mega cn-col-4">
+                                                        <li><a href="index.html">Home</a></li>
+                                                        <li><a href="about-us.html">About Us</a></li>
+                                                        <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
+                                                        <li><a href="blog.html">News</a></li>
+                                                        <li><a href="contact.html">Contact</a></li>
+                                                        <li><a href="elements.html">Elements</a></li>
+                                                    </ul>
+                                                    <ul class="single-mega cn-col-4">
+                                                        <li><a href="index.html">Home</a></li>
+                                                        <li><a href="about-us.html">About Us</a></li>
+                                                        <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
+                                                        <li><a href="blog.html">News</a></li>
+                                                        <li><a href="contact.html">Contact</a></li>
+                                                        <li><a href="elements.html">Elements</a></li>
+                                                    </ul>
+                                                    <ul class="single-mega cn-col-4">
+                                                        <li><a href="index.html">Home</a></li>
+                                                        <li><a href="about-us.html">About Us</a></li>
+                                                        <li><a href="concert-tours.html">Concert &amp; Tours</a></li>
+                                                        <li><a href="blog.html">News</a></li>
+                                                        <li><a href="contact.html">Contact</a></li>
+                                                        <li><a href="elements.html">Elements</a></li>
+                                                    </ul>
+                                                </div>
+                                            </li> -->
+                                    <!-- <li><a href="concert-tours.html">Gallery</a></li>
+                                            <li><a href="contact.html">Contact</a></li> -->
+                                </ul>
+
+                                <!-- Social Button -->
+                                <div class="top-social-info">
+                                    <a href="https://www.facebook.com/Beby-Funes-2044395295829928/"><i class="fa fa-2x fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.instagram.com/p/BtjH98Yhu5z/"><i class="fa fa-2x fa-instagram" aria-hidden="true"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCrDr8dFyDAW2Mo61cgg-Tdw"><i class="fa fa-2x fa-youtube" aria-hidden="true"></i></a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
             </div>
         </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
 
-        <div class="embed-responsive embed-responsive-4by3">
-            <iframe id="youtube" class="embed-responsive-item" style="padding-bottom: 30px; padding-top: 30px" src="https://www.youtube.com/embed/wmCLUjin8kg" autoplay="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
+    <!-- ##### Hero Area Start ##### -->
+    <section class="hero-area">
+        <div class="hero-slides owl-carousel">
 
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="text-white mt-0">¡Es tu fiesta!</h2>
-          <hr class="divider light my-4">
-          <p class="text-white-75 mb-4">Al momento de llevar a cabo ese día tan esperado durante años, no querés dejar pasar detalles. Esa fiesta va a quedar para siempre en tu memoria y la de tus seres queridos...</p>
-          <p class="text-white-75 mb-4">Una vez que conseguiste el salón, empezás a elegir el catering, luego el DJ, y una vez que crees que está todo... ¡te acordás del cotillón! y luego la barra de tragos. Hasta que recordas que algo te está faltando... ¡si! algo te olvidaste... <b>y eso no puede faltar.</b></p>
-          <p class="text-white-75 mb-4">La garantía de que tu fiesta va ser un éxito, la
-            diversión asegurada, ¡y para eso estamos nosotros! y te contamos por qué...</p>
-          <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">¿Qué más?</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Services Section -->
-  <section class="page-section" id="services">
-    <div class="container">
-      <h2 class="text-center mt-0">Una fiesta inolvidable</h2>
-      <hr class="divider my-4">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-gem text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Experiencia</h3>
-            <p class="text-muted mb-0">Nuestro equipo cuenta con más de 12 años de experiencia en el rubro musical, entrenado no sólo para que tengas una de las mejores bandas de Córdoba animando tu momento tan
-              especial, sino que para que cada detalle del show sea minuciosamente cuidado. ¡No hay margen de error!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-glass-cheers color-morado text-primary mb-4"></i>
-            <h3 class="h4 mb-2">Equipo</h3>
-            <p class="text-muted mb-0">Nuestro equipo trabajará con los organizadores en cada detalle desde el primer momento, para que todo sea perfecto y todos la pasen genial.</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x color-verde-light fa-guitar text-primary mb-4"></i>
-            <h3 class="h4 mb-2">La mejor música</h3>
-            <p class="text-muted mb-0">Dentro del repertorio vas a poder escuchar lo mejor de Paulo Londra, Maluma,Becky G, entre otros. Más cumbias de ayer y hoy como los grandes hits de Ráfaga o Antonio Ríos... ¡y más! ¡Una variedad increíble de canciones que van a dar vida a tu fiesta!</p>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 text-center">
-          <div class="mt-5">
-            <i class="fas fa-4x fa-heart text-primary mb-4 color-rojo"></i>
-            <h3 class="h4 mb-2">Diversión</h3>
-            <p class="text-muted mb-0">La puesta en escena, el carisma e interacción con los agasajados y el público hacen que el show de Beby Funes sea el sello de alta calidad y la garantía de que tu momento tan ansiado quedará para siempre en el recuerdo tuyo y de los tuyos como una de las mejores noches.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-0">
-      <div class="row no-gutters">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
-            <img class="img-fluid" height="350px" width="650px" src="img/portfolio/thumbnails/1.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                La fiesta de tu vida
-              </div>
-              <div class="project-name">
-                Beby Funes
-              </div>
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/1.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="hero-slides-content text-center">
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Musica <span>Musica</span></h2>
+                    <p data-animation="fadeInUp" data-delay="300ms">¡Tu fiesta va a explotar!</p>
+                </div>
+                <!-- Big Text -->
+                <h2 class="big-text">Musica</h2>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                La fiesta de tu vida
-              </div>
-              <div class="project-name">
-                Beby Funes
-              </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/2.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="hero-slides-content text-center">
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Diversión <span>Diversión</span></h2>
+                    <p data-animation="fadeInUp" data-delay="300ms">¡Pasala bien!</p>
+                </div>
+                <!-- Big Text -->
+                <h2 class="big-text">Diversión</h2>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                La fiesta de tu vida
-              </div>
-              <div class="project-name">
-                Beby Funes
-              </div>
+
+            <!-- Single Hero Slide -->
+            <div class="single-hero-slide d-flex align-items-center justify-content-center">
+                <!-- Slide Img -->
+                <div class="slide-img bg-img" style="background-image: url(img/bg-img/3.jpg);"></div>
+                <!-- Slide Content -->
+                <div class="hero-slides-content text-center">
+                    <h2 data-animation="fadeInUp" data-delay="100ms">Fiesta <span>Fiesta</span></h2>
+                    <p data-animation="fadeInUp" data-delay="300ms">¡Una fiesta inolvidable!</p>
+                </div>
+                <!-- Big Text -->
+                <h2 class="big-text">Fiesta</h2>
             </div>
-          </a>
+
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                La fiesta de tu vida
-              </div>
-              <div class="project-name">
-                Beby Funes
-              </div>
+        <!-- bg gradients -->
+        <div class="bg-gradients"></div>
+
+        <!-- Slide Down -->
+        <div class="slide-down" id="scrollDown">
+            <h6>Conocé más</h6>
+            <div class="line"></div>
+        </div>
+    </section>
+    <!-- ##### Hero Area End ##### -->
+
+    <!-- ##### About Us Area Start ##### -->
+    <div class="about-us-area section-padding-100-0 bg-img bg-overlay"
+        style="background-image: url(img/bg-img/bg-3.jpg);" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h2>¿Quiénes somos?</h2>
+                        <h6>Conocenos más</h6>
+                    </div>
+                </div>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                La fiesta de tu vida
-              </div>
-              <div class="project-name">
-                Beby Funes
-              </div>
+
+            <div class="row">
+                <!-- About Thumbnail -->
+                <div class="col-12 col-lg-6">
+                    <div class="about-thumbnail mb-100">
+                        <div class="embed-responsive embed-responsive-4by3">
+                            <iframe id="youtube" class="embed-responsive-item"
+                                style="padding-bottom: 30px; padding-top: 30px"
+                                src="https://www.youtube.com/embed/wmCLUjin8kg" autoplay="1"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <!-- About Content -->
+                <div class="col-12 col-lg-6">
+                    <div class="about-content mb-100">
+                        <h4>Beby Funes</h4>
+                        <p>Al momento de llevar a cabo ese día tan esperado durante años, no querés dejar pasar
+                            detalles. Esa fiesta va a quedar para siempre en tu memoria y la de tus seres queridos...
+                            Una vez que conseguiste el salón, empezás a elegir el catering, luego el DJ, y una vez que
+                            crees que está todo... ¡te acordás del cotillón! y luego la barra de tragos. Hasta que
+                            recordas que algo te está faltando... ¡si! algo te olvidaste... <b>y eso no puede
+                                faltar.</b> La garantía de que tu fiesta va ser un éxito, la
+                            diversión asegurada, ¡y para eso estamos nosotros! y te contamos por qué...
+                        </p>
+                        <img height="100" width="200" src="img/core-img/logo_blanco.png" alt="">
+                    </div>
+                </div>
             </div>
-          </a>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-            <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
-            <div class="portfolio-box-caption p-3">
-              <div class="project-category text-white-50">
-                La fiesta de tu vida
-              </div>
-              <div class="project-name">
-                Beby Funes
-              </div>
-            </div>
-          </a>
-        </div>
-      </div>
     </div>
-  </section>
+    <!-- ##### About Us Area End ##### -->
 
-  <!-- Call to Action Section
-  <section class="page-section bg-dark text-white">
-    <div class="container text-center">
-      <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-      <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-    </div>
-  </section> -->
+    <!-- ##### Upcoming Shows Area Start ##### -->
+    <!--<div class="upcoming-shows-area section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading">
+                        <h2>Upcoming shows</h2>
+                        <h6>Sed porta cursus enim, vitae maximus felis luctus iaculis.</h6>
+                    </div>
+                </div>
+            </div>
 
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">¡Contratanos!</h2>
-          <hr class="divider my-4">
-          <p class="text-muted mb-5">¿Listo para vivir una fiesta inolvidable?</p>
+            <div class="row">
+                <div class="col-12">
+                 Upcoming Shows Content 
+                    <div class="upcoming-shows-content">
+
+                       Single Upcoming Shows 
+                        <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
+                            <div class="shows-date">
+                                <h2>17 <span>July</span></h2>
+                            </div>
+                            <div class="shows-desc d-flex align-items-center">
+                                <div class="shows-img">
+                                    <img src="img/bg-img/s1.jpg" alt="">
+                                </div>
+                                <div class="shows-name">
+                                    <h6>Electric castle Festival</h6>
+                                    <p>Cluj, Romania</p>
+                                </div>
+                            </div>
+                            <div class="shows-location">
+                                <p>At the Castle</p>
+                            </div>
+                            <div class="shows-time">
+                                <p>20:30</p>
+                            </div>
+                            <div class="buy-tickets">
+                                <a href="#" class="btn musica-btn">Buy Tikets</a>
+                            </div>
+                        </div>
+
+                        Single Upcoming Shows 
+                        <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
+                            <div class="shows-date">
+                                <h2>23 <span>July</span></h2>
+                            </div>
+                            <div class="shows-desc d-flex align-items-center">
+                                <div class="shows-img">
+                                    <img src="img/bg-img/s2.jpg" alt="">
+                                </div>
+                                <div class="shows-name">
+                                    <h6>Electric Festival</h6>
+                                    <p>Manhathan, NY, USA</p>
+                                </div>
+                            </div>
+                            <div class="shows-location">
+                                <p>Main Stadium</p>
+                            </div>
+                            <div class="shows-time">
+                                <p>21:30</p>
+                            </div>
+                            <div class="buy-tickets">
+                                <a href="#" class="btn musica-btn">Buy Tikets</a>
+                            </div>
+                        </div>
+
+                      Single Upcoming Shows 
+                        <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
+                            <div class="shows-date">
+                                <h2>25 <span>July</span></h2>
+                            </div>
+                            <div class="shows-desc d-flex align-items-center">
+                                <div class="shows-img">
+                                    <img src="img/bg-img/s3.jpg" alt="">
+                                </div>
+                                <div class="shows-name">
+                                    <h6>Sunflower festival</h6>
+                                    <p>Paris, France</p>
+                                </div>
+                            </div>
+                            <div class="shows-location">
+                                <p>Sunflower Arena</p>
+                            </div>
+                            <div class="shows-time">
+                                <p>20:30</p>
+                            </div>
+                            <div class="buy-tickets">
+                                <a href="#" class="btn musica-btn">Buy Tikets</a>
+                            </div>
+                        </div>
+
+                         Single Upcoming Shows
+                        <div class="single-upcoming-shows d-flex align-items-center flex-wrap">
+                            <div class="shows-date">
+                                <h2>30 <span>July</span></h2>
+                            </div>
+                            <div class="shows-desc d-flex align-items-center">
+                                <div class="shows-img">
+                                    <img src="img/bg-img/s4.jpg" alt="">
+                                </div>
+                                <div class="shows-name">
+                                    <h6>Electric castle Festival</h6>
+                                    <p>Cluj, Romania</p>
+                                </div>
+                            </div>
+                            <div class="shows-location">
+                                <p>At the Castle</p>
+                            </div>
+                            <div class="shows-time">
+                                <p>20:30</p>
+                            </div>
+                            <div class="buy-tickets">
+                                <a href="#" class="btn musica-btn">Buy Tikets</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center">
-          <i class="fab fa-whatsapp fa-3x mb-3 text-muted" style="color: rgb(18, 155, 18)!important"></i>
-          <a class="d-block" href="https://wa.me/351306515">(351) 3036515</a>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in anchor text AND the link below! -->
-          <a class="d-block" href="mailto:bebyfuness@gmail.com">bebyfuness@gmail.com</a>
-        </div>
-      </div>
     </div>
-  </section>
+    ##### Upcoming Shows Area End ##### -->
 
-  <!-- Footer -->
-  <footer class="bg-light py-5">
-    <div class="container">
-      <div class="small text-center text-muted">Copyright &copy; 2019 - Ismael Funes (3541686374)</div>
+    <!-- ##### Music Player Area Start ##### -->
+    <div class="music-player-area section-padding-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="music-player-slides owl-carousel">
+
+                   
+
+                        <div class="single-music-player">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe id="youtube" class="embed-responsive-item"
+                                    src="https://www.youtube.com/embed/-QS9hTqb6vA" autoplay="1"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                        <div class="single-music-player">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe id="youtube" class="embed-responsive-item"
+                                    src="https://www.youtube.com/embed/1ENlnZEKdmY" autoplay="1"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                       
+                        
+                        <!-- Single Music Player -->
+
+                        <div class="single-music-player">
+                            <div class="embed-responsive embed-responsive-4by3">
+                                <iframe id="youtube" class="embed-responsive-item"
+                                    src="https://www.youtube.com/embed/LBPzNHKXx-4" autoplay="1"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+
+                             <!-- Single Music Player -->
+                             <div class="single-music-player">
+                                <!-- <img src="img/bg-img/mp3.jpg" alt=""> -->
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe id="youtube" class="embed-responsive-item"
+                                        src="https://www.youtube.com/embed/_7PqcX1CzSw" autoplay="1"
+                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen></iframe>
+                                </div>
+
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </footer>
+    <!-- ##### Music Player Area End ##### -->
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- ##### Featured Album Area Start ##### -->
+    <div class="featured-album-area section-padding-100 clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="featured-album-content d-flex flex-wrap">
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+                        <!-- Album Thumbnail -->
+                        <div class="album-thumbnail h-100 bg-img" style="background-image: url(img/bg-img/melancolic.jpg);">
+                        </div>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/creative.min.js"></script>
+                        <!-- Album Songs -->
+                        <div class="album-songs h-100">
 
+                            <!-- Album Info -->
+                            <div class="album-info mb-50 d-flex flex-wrap align-items-center justify-content-between">
+                                <div class="album-title">
+                                    <h6>Algunos temas para que nos escuches en acción.</h6>
+                                    <h4>¡Escuchanos!</h4>
+                                </div>
+                            </div>
+
+                            <div class="album-all-songs">
+
+                                <!-- Music Playlist -->
+                                <div class="music-playlist">
+                                    <!-- Single Song -->
+                                    <div class="single-music active">
+                                        <h6>Bad Bunny - Mía</h6>
+                                        <audio   preload="auto" controls>
+                                            <source src="audio/1.mpeg">
+                                        </audio>
+                                    </div>
+
+                                    <!-- Single Song -->
+                                    <div class="single-music">
+                                        <h6>Paulo Londra - Adan y Eva</h6>
+                                        <audio preload="auto" controls>
+                                            <source src="audio/2.mpeg">
+                                        </audio>
+                                    </div>
+
+                                    <!-- Single Song -->
+                                    <div class="single-music">
+                                        <h6>Pitbull - Como yo le doy (En vivo)</h6>
+                                        <audio  preload="auto" controls>
+                                            <source src="audio/3.mpeg">
+                                        </audio>
+                                    </div>
+
+                                    <div class="single-music">
+                                        <h6>Yatra, Mau y Ricky - Ya no tiene novio (En vivo)</h6>
+                                        <audio  preload="auto" controls>
+                                            <source src="audio/4.mpeg">
+                                        </audio>
+                                    </div>
+
+                                    <div class="single-music">
+                                        <h6>Enganchado (En vivo)</h6>
+                                        <audio  preload="auto" controls>
+                                            <source src="audio/5.mpeg">
+                                        </audio>
+                                    </div>
+                                    <!-- <script>
+                                        function playAudio(element) {
+                                        var sounds = document.getElementsByTagName('audio');
+                                        for(i=0; i<sounds.length; i++) sounds[i].pause();
+                                        console.log(element);
+                                        element.play();
+                                         };
+                                    </script> -->
+                                </div>
+                            </div>
+
+                            <!-- Now Playing -->
+                            <!-- <div class="now-playing d-flex flex-wrap align-items-center justify-content-between">
+                                <div class="songs-name">
+                                    <p>Playing</p>
+                                    <h6>Drop that beat</h6>
+                                </div>
+                                <audio preload="auto" controls>
+                                    <source src="audio/dummy-audio.mp3">
+                                </audio>
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Featured Album Area End ##### -->
+
+    <!-- ##### Music Artists Area Start ##### -->
+    <!-- <div class="musica-music-artists-area d-flex flex-wrap clearfix"> -->
+    <!-- Music Search -->
+    <!-- <div class="music-search bg-img bg-overlay2 wow fadeInUp" data-wow-delay="300ms" style="background-image: url(img/bg-img/bg-9.jpg);"> -->
+    <!-- Content -->
+    <!-- <div class="music-search-content">
+                <h2>Music</h2>
+                <h4>Search for the best music</h4>
+            </div>
+        </div> -->
+
+    <!-- Artists Search -->
+    <!-- <div class="artists-search bg-img bg-overlay2 wow fadeInUp" data-wow-delay="600ms" style="background-image: url(img/bg-img/bg-1.jpg);"> -->
+    <!-- Content -->
+    <!-- <div class="music-search-content">
+                <h2>Artists</h2>
+                <h4>Search for the best artists</h4>
+            </div>
+        </div>
+    </div> -->
+    <!-- ##### Music Artists Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area section-padding-100-0">
+        <div class="container-fluid">
+            <div class="row">
+
+                <!-- Footer Widget Area -->
+                <div class="col-12 col-md-6 col-xl-3 text-center">
+                    <div class="footer-widget-area mb-100">
+                        <a href="#"><img height="80" width="150" src="img/core-img/logo_negro_full.png" alt=""></a>
+                        <p class="copywrite-text"><a href="#">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                                Ismael Funes - Copyright &copy;
+                                <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+                                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="row">
+                        <div class="row">
+                            <h1 style="padding-left: 20%!important">¡Contratanos!</h1>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-12 col-md-6 col-xl-3">
+
+                    <div class="footer-widget-area mb-100">
+                        <div class="ml-auto text-center">
+                            <i class="fa fa-whatsapp fa-3x" style="color: rgb(18, 155, 18)!important"></i>
+                            <a class="d-block link" style="color: orange" href="https://wa.me/549351306515"><span
+                                    style="border-bottom: orange 1px solid !important">(351) 3036515</span></a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div class="footer-widget-area mb-100">
+                        <div class="mr-auto text-center">
+                            <i class="fa fa-envelope fa-3x mb-3"></i>
+                            <!-- Make sure to change the email address in anchor text AND the link below! -->
+                            <a class="d-block" style="color: orange" href="mailto:bebyfuness@gmail.com"><span
+                                    style="border-bottom: orange 1px solid !important">bebyfuness@gmail.com</span></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
+
+    <!-- ##### All Javascript Script ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
 </body>
 
 </html>
